@@ -3,7 +3,7 @@
 # ## ###############################################################
 # prog1.py
 #
-# Author: Mauricio Matamoros
+# Author: Yobel Dolores
 # License: MIT
 #
 # Finds the word that occurs the most times in a given text
@@ -31,10 +31,11 @@ def count_words(filepath):
 				if not word:
 					continue
 				word = word.lower()
-				if word in wordcount:
-					wordcount[word] += 1
-				else:
-					wordcount[word] = 1
+				if len(word) >= 4:
+					if word in wordcount:
+						wordcount[word] +=1
+					else:
+						wordcount[word] =1
 			line = f.readline()
 	return wordcount
 
@@ -43,7 +44,7 @@ def count_words(filepath):
 def main():
 	wordcount = count_words("quijote.txt")
 	ranked = rank_words(wordcount)
-	for i in range(10):
+	for i in range(3):
 		print('Most used word #{}: "{}" ({})'
 			.format(
 				i+1,
