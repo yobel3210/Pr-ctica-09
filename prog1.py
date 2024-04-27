@@ -10,13 +10,13 @@
 #
 # ## ###############################################################
 import sys
-from math import sin
+from math import cos
 
 def main(argv):
 	for i in range(1, len(argv)):
 		a = float(argv[i]) # The angle
-		s = sin(a)         # The sine of the angle
-		print("sin({}) = {}".format(a, s))
+		s = cos(a)         # The sine of the angle
+		print("cos({}) = {}".format(a, s))
 
 if __name__ == '__main__':
 	main(sys.argv)
