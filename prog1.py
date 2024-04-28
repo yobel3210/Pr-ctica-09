@@ -3,7 +3,7 @@
 # ## ###############################################################
 # prog1.py
 #
-# Author: Mauricio Matamoros
+# Author: Yobel Dolores
 # License: MIT
 #
 # Calculates the sine of each input number
