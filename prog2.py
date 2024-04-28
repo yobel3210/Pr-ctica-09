@@ -3,7 +3,7 @@
 # ## ###############################################################
 # prog1.py
 #
-# Author: Mauricio Matamoros
+# Author: Yobel Dolores
 # License: MIT
 #
 # Finds the longest word in the input string
